@@ -1,0 +1,21 @@
+{
+  "name": "bulma-starter",
+  "homepage": "https://github.com/mirkoschubert/bulma-starter",
+  "authors": [
+    "Mirko Schubert <mirkoschubert@gmail.com>"
+  ],
+  "description": "A Hugo starter theme with Bulma CSS framework",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bulma": "^0.7.2"
+  }
+}
