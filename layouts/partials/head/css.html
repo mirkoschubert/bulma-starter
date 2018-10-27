@@ -1,0 +1,3 @@
+{{- $sass := resources.Get "sass/main.sass" -}}
+{{- $style := $sass | resources.ToCSS (dict "targetPath" "assets/css/main.css") | resources.Minify -}}
+<link rel="stylesheet" href="{{ $style.Permalink }}" media="screen" />

@@ -1,11 +1,17 @@
 <!DOCTYPE html>
-<html>
-    {{- partial "head.html" . -}}
-    <body>
-        {{- partial "header.html" . -}}
-        <div id="content">
-        {{- block "main" . }}{{- end }}
-        </div>
-        {{- partial "footer.html" . -}}
-    </body>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+  {{- .Hugo.Generator -}}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{- block "title" . }}{{- .Title -}} | {{- .Site.Title -}}{{- end }}</title>
+  {{- partial "head/css.html" . -}}
+</head>
+<body>
+  {{- partial "header.html" . -}}
+  <div id="content">
+    {{- block "main" . }}{{- end }}
+  </div>
+  {{- partial "footer.html" . -}}
+</body>
 </html>
