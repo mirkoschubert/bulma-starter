@@ -1,0 +1,15 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name: "Bulma Starter"
+license: MIT
+licenselink: "https://github.com/mirkoschubert/bulma-starter/blob/master/LICENSE"
+description: "A Hugo starter theme with Bulma CSS Framework"
+homepage: "https://mirkoschubert.de/"
+tags: [starter, theme, bulma, sass]
+features: []
+min_version: 0.48
+
+author:
+  name: "Mirko Schubert"
+  homepage: "https://mirkoschubert.de/"
